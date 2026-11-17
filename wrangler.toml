@@ -1,0 +1,11 @@
+name = "shared-textbox"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+
+[[durable_objects.bindings]]
+name = "BOX"
+class_name = "Box"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Box"]
